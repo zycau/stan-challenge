@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .left{
+        width: 220px;
+        height: 330px;
+        margin-right: 50px;
+    }
+    .right{
+        .top{
+            height: 40px;
+            width: 180px;
+            margin-bottom: 10px;
+        }
+        .middle{
+            height: 22px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+        .bottom{
+            height: 70px;
+            width: 400px;
+        }
+    }
+    .left, .top, .middle, .bottom{
+        background: grey;
+    }
+}

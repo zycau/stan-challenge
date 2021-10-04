@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .left{
+        img{
+            width: 220px;
+            margin-right: 50px;
+        }
+    }
+    .right{
+        padding-right: 100px;
+        h1{
+            margin: 0 0 10px;
+            font-size: 36px;
+        }
+        .subtitle, .description{
+            margin: 0 0 30px;
+            font-size: 20px;
+        }
+    }
+}

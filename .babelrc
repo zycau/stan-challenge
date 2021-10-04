@@ -1,0 +1,17 @@
+{
+    "presets": [        
+        "@babel/preset-typescript",
+        "@babel/preset-react",
+        [
+            "@babel/env",
+            {
+                "targets": "> 0.25%, not dead" ,
+                "useBuiltIns": "entry",
+                "corejs": "3.6.5"
+            }
+        ]    
+    ],
+    "plugins": [
+        ["@babel/plugin-transform-runtime"]
+    ]
+}
