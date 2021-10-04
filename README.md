@@ -48,7 +48,7 @@ npm run test
 
 * **Data fetching:** If there are more programs in database, just fetch a certain number of data once in order to optimize the performance and the response size. For the same reason, we could fetch program by id in `program` page if it's not in state.
 
-* **Lint:** Add eslint, prettier, husky etc to standardize the development and deploy process.
+* **Lint:** Add eslint, prettier, husky etc to standardize the development and deployment process.
 
 * **Responsive:** Improve the styling part to make the App compatiable with more devices and browsers.
 
